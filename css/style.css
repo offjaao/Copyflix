@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; /*Multi Opçoes*/
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(-35%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.principal {
+  animation: appear 500ms backwards;
+  height: 100%;
+  width: 100%;
+}
+
+.cima {
+  animation: appear 500ms backwards;
+  animation-delay: 200ms;
+  display: flex; /*coloquei display flexbox*/
+  justify-content: space-between; /*Justifiquei o espaço que o conteudo ocupa no eixo X*/
+  align-items: center; /*Justifiquei o espaço que o conteudo ocupa no eixo Y*/
+  margin: 20px;
+}
+
+.entrar-btn {
+  background: #e50917;
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 2px;
+  border: 0;
+}
+
+.entrar-btn:hover {
+  opacity: 1;
+}
+
+.baixo {
+  animation: appear 500ms backwards;
+  animation-delay: 400ms;
+  display: flex; /*coloquei display flexbox*/
+  flex-flow: column nowrap; /*Ajustei o eixo principal e coloquei pra nao ocupar 2 linhas*/
+  justify-content: center; /*Justifiquei o espaço que o conteudo ocupa no eixo X*/
+  align-items: center; /*Justifiquei o espaço que o conteudo ocupa no eixo Y*/
+  margin: 20px;
+}
+
+.saiba-btn {
+  background: transparent;
+
+  border: 1px solid #ddd;
+  border-radius: 2px;
+
+  padding: 15px 50px;
+
+  color: white;
+  font-weight: bold;
+}
+
+.testefree-btn {
+  color: white;
+  font-weight: bold;
+  
+  background: red;
+  border: 0px solid #ddd;
+  border-radius: 2px;
+
+  padding: 15px 50px;
+  margin: 30px 0px;
+}
+
+.texto {
+  font-size: 50px;
+  color: #fff;
+}
+
+.data {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.cobranca {
+  font-size: 25px;
+  color: #8c8c8c;
+}
+
+@media (max-width: 464px) {
+  .texto {
+    display: none;
+  }
+
+  .cobranca,
+  .data {
+    font-size: 35px;
+  }
+}
