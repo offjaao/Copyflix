@@ -1,4 +1,6 @@
 # Copyflix
 Projeto criado para apresentação na escola ESSA
 
-Uma cópia mal feita da netflix, com apenas 2 paginas.
+Um layout similar ao site da Netflix (2019)
+
+Site hospedado: http://bit.ly/copyflix
