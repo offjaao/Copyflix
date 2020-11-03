@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif; /*Multi Opçoes*/
+  font-family: Arial, Helvetica, sans-serif; 
 }
 
 a {
@@ -29,9 +29,9 @@ a {
 .cima {
   animation: appear 500ms backwards;
   animation-delay: 200ms;
-  display: flex; /*coloquei display flexbox*/
-  justify-content: space-between; /*Justifiquei o espaço que o conteudo ocupa no eixo X*/
-  align-items: center; /*Justifiquei o espaço que o conteudo ocupa no eixo Y*/
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
   margin: 20px;
 }
 
@@ -51,10 +51,10 @@ a {
 .baixo {
   animation: appear 500ms backwards;
   animation-delay: 400ms;
-  display: flex; /*coloquei display flexbox*/
-  flex-flow: column nowrap; /*Ajustei o eixo principal e coloquei pra nao ocupar 2 linhas*/
-  justify-content: center; /*Justifiquei o espaço que o conteudo ocupa no eixo X*/
-  align-items: center; /*Justifiquei o espaço que o conteudo ocupa no eixo Y*/
+  display: flex;
+  flex-flow: column nowrap; 
+  justify-content: center; 
+  align-items: center;
   margin: 20px;
 }
 
